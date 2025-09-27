@@ -1,0 +1,38 @@
+{
+  "name": "square-image",
+  "version": "1.0.0",
+  "description": "Automatic image processing service that converts images to square PNG format with white background",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "image-processing",
+    "automation",
+    "square",
+    "png",
+    "avif",
+    "jpeg",
+    "file-watcher"
+  ],
+  "author": "BridgerB",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BridgerB/square-image.git"
+  },
+  "homepage": "https://github.com/BridgerB/square-image#readme",
+  "bugs": {
+    "url": "https://github.com/BridgerB/square-image/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "sharp": "^0.33.5",
+    "trash": "^9.0.0"
+  }
+}
