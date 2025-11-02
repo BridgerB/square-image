@@ -53,6 +53,7 @@
             license = licenses.isc;
             platforms = platforms.all;
             maintainers = [];
+            mainProgram = "square-image";
           };
         };
       in {
